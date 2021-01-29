@@ -21,7 +21,7 @@ public class AppController : MonoBehaviour
     
     public void FindText()
     {
-       
+
 
         if (FindWordText.text == "Google")
         {
@@ -56,7 +56,7 @@ public class AppController : MonoBehaviour
         }
         else if (FindWordText.text == "msn")
         {
-            resultText.GetComponent<Text>().text = $"[ <color=green>" +( MSN )+ "</color> ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + (MSN) + "</color> ] is found.";
         }
         else if (FindWordText.text == "Twitter")
         {
@@ -64,11 +64,11 @@ public class AppController : MonoBehaviour
         }
         else if (FindWordText.text == "twitter")
         {
-            resultText.GetComponent<Text>().text = $"[ <color=green>" + ( Twitter ) + "</color> ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + (Twitter) + "</color> ] is found.";
         }
         else
         {
-            resultText.GetComponent<Text>().text = $"<color=red>(Not found)</color>.";
+            resultText.GetComponent<Text>().text = $"<color=red>" + FindWordText.text +  " is not found</color>.";
         }
     }
 
