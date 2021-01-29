@@ -12,11 +12,11 @@ public class AppController : MonoBehaviour
     public GameObject resultText;
 
 
-     string Google = "Google";
-     string Hi5 = "Hi5";
-     string Facebook = "Facebook";
-     string MSN = "MSN";
-     string Twitter = "Twitter";
+     private string Google = "Google";
+     private string Hi5 = "Hi5";
+     private string Facebook = "Facebook";
+     private string MSN = "MSN";
+     private string Twitter = "Twitter";
     
     
     public void FindText()
