@@ -11,6 +11,7 @@ public class AppController : MonoBehaviour
 
     public GameObject resultText;
 
+
      string Google = "Google";
      string Hi5 = "Hi5";
      string Facebook = "Facebook";
@@ -24,50 +25,50 @@ public class AppController : MonoBehaviour
 
         if (FindWordText.text == "Google")
         {
-            resultText.GetComponent<Text>().text = "[ "+ Google + " ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + (Google) + "</color> ] is found.";
         }
 
         else if (FindWordText.text == "google")
         {
-            resultText.GetComponent<Text>().text = "[ " + Google + " ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + (Google) + "</color> ] is found.";
         }
         else if (FindWordText.text == "Hi5")
         {
-            resultText.GetComponent<Text>().text = "[ " + Hi5 + " ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + (Hi5) + "</color> ] is found.";
         }
 
         else if (FindWordText.text == "hi5")
         {
-            resultText.GetComponent<Text>().text = "[ " + Hi5 + " ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + (Hi5) + "</color> ] is found.";
         }
 
         else if (FindWordText.text == "Facebook")
         {
-            resultText.GetComponent<Text>().text = "[ " + Facebook + " ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + (Facebook) + "</color> ] is found.";
         }
         else if (FindWordText.text == "facebook")
         {
-            resultText.GetComponent<Text>().text = "[ " + Facebook + " ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + (Facebook) + "</color> ] is found.";
         }
         else if (FindWordText.text == "MSN")
         {
-            resultText.GetComponent<Text>().text = "[ " + MSN + " ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + (MSN) + "</color> ] is found.";
         }
         else if (FindWordText.text == "msn")
         {
-            resultText.GetComponent<Text>().text = "[ " + MSN + " ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" +( MSN )+ "</color> ] is found.";
         }
         else if (FindWordText.text == "Twitter")
         {
-            resultText.GetComponent<Text>().text = "[ " + Twitter + " ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + (Twitter) + "</color> ] is found.";
         }
         else if (FindWordText.text == "twitter")
         {
-            resultText.GetComponent<Text>().text = "[ " + Twitter + " ] is found.";
+            resultText.GetComponent<Text>().text = $"[ <color=green>" + ( Twitter ) + "</color> ] is found.";
         }
         else
         {
-            resultText.GetComponent<Text>().text = "Not found.";
+            resultText.GetComponent<Text>().text = $"<color=red>(Not found)</color>.";
         }
     }
 
